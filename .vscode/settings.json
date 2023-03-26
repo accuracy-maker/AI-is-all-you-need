@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "/Users/gaohaitao/opt/anaconda3/envs/ResumeParsing/bin/python",
+    "code-runner.executorMap": {
+         "python": "set PYTHONIOENCODING=utf-8 && /Users/gaohaitao/opt/anaconda3/envs/ResumeParsing/bin/python",
+         },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.runInTerminal": false,
+}

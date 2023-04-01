@@ -71,7 +71,7 @@ def create_dataset_multi_steps(dataset,seq_len,pred_len,slide_width,is_train):
                 #x_input = x_input.reshape(len(x_input),1)
                 X.append(x_input)
                 y.append(dataset[in_end:out_end,-1])
-            in_start += 1
+            in_start += pred_len
         X = np.array(X)
         y = np.array(y)
         y = y.reshape(y.shape[0],y.shape[1])

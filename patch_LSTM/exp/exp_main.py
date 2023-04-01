@@ -30,6 +30,8 @@ class Exp_Main(Exp_Basic):
             'CICL': CICL,
             'Dlstm':Dlstm,
             'Patch_LSTM':Patch_LSTM,
+            'Autoformer':Autoformer,
+            "Informer":informer,
         }
         model = model_dict[self.args.model].Model(self.args).float()
         return model
